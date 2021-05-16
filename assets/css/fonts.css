@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "Ermilov";
+	font-display: swap;
+	font-style: normal;
+	font-weight: 700;
+	src: url("/assets/fonts/ErmilovBold/ErmilovBold.eot");
+	src: url("/assets/fonts/ErmilovBold/ErmilovBold.eot?#iefix")format("embedded-opentype"),
+	url("/assets/fonts/ErmilovBold/ErmilovBold.woff") format("woff"),
+	url("/assets/fonts/ErmilovBold/ErmilovBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Osnova Pro";
+	font-display: swap;
+	font-style: normal;
+	font-weight: 500;
+	src: url("/assets/fonts/OsnovaMedium/OsnovaMedium.eot");
+	src: url("/assets/fonts/OsnovaMedium/OsnovaMedium.eot?#iefix")format("embedded-opentype"),
+	url("/assets/fonts/OsnovaMedium/OsnovaMedium.woff") format("woff"),
+	url("/assets/fonts/OsnovaMedium/OsnovaMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Osnova Pro";
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+	src: url("/assets/fonts/OsnovaRegular/OsnovaRegular.eot");
+	src: url("/assets/fonts/OsnovaRegular/OsnovaRegular.eot?#iefix")format("embedded-opentype"),
+	url("/assets/fonts/OsnovaRegular/OsnovaRegular.woff") format("woff"),
+	url("/assets/fonts/OsnovaRegular/OsnovaRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Osnova Pro";
+	font-display: swap;
+	font-style: normal;
+	font-weight: 300;
+	src: url("/assets/fonts/OsnovaLight/OsnovaLight.eot");
+	src: url("/assets/fonts/OsnovaLight/OsnovaLight.eot?#iefix")format("embedded-opentype"),
+	url("/assets/fonts/OsnovaLight/OsnovaLight.woff") format("woff"),
+	url("/assets/fonts/OsnovaLight/OsnovaLight.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Osnova Pro";
+	font-display: swap;
+	font-style: normal;
+	font-weight: 700;
+	src: url("/assets/fonts/OsnovaBold/OsnovaBold.eot");
+	src: url("/assets/fonts/OsnovaBold/OsnovaBold.eot?#iefix")format("embedded-opentype"),
+	url("/assets/fonts/OsnovaBold/OsnovaBold.woff") format("woff"),
+	url("/assets/fonts/OsnovaBold/OsnovaBold.ttf") format("truetype");
+}

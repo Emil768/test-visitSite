@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.998" height="13.998" viewBox="0 0 13.998 13.998">
+  <g id="blood-test" transform="translate(-0.001 0)">
+    <path id="Path_31156" data-name="Path 31156" d="M0,0H6.475V1.64H0Z" transform="translate(2.049 9.048) rotate(-45)" fill="#7b7b7b"/>
+    <path id="Path_31157" data-name="Path 31157" d="M.6,110.525a2.053,2.053,0,0,0,2.9,0l7.769-7.769-2.9-2.9-1.16,1.16,1.45,1.45a.41.41,0,0,1,0,.58L3.5,108.205a.41.41,0,0,1-.58,0l-1.45-1.45-.87.87a2.053,2.053,0,0,0,0,2.9Z" transform="translate(0 -97.127)" fill="#7b7b7b"/>
+    <path id="Path_31158" data-name="Path 31158" d="M313.085,2.536,314.824.8,314.148.12a.41.41,0,0,0-.58,0l-1.16,1.16a.41.41,0,0,0,0,.58Z" transform="translate(-303.749 0)" fill="#7b7b7b"/>
+    <path id="Path_31159" data-name="Path 31159" d="M0,0H2.461V1.367H0Z" transform="translate(9.914 3.117) rotate(-45)" fill="#7b7b7b"/>
+    <path id="Path_31160" data-name="Path 31160" d="M420.956,106.929l-1.74,1.74.677.677a.41.41,0,0,0,.58,0l1.16-1.16a.41.41,0,0,0,0-.58Z" transform="translate(-407.754 -104.006)" fill="#7b7b7b"/>
+  </g>
+</svg>
