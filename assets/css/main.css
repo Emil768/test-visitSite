@@ -1880,9 +1880,9 @@ button {
 /* mobile language */
 
 .arr_drop_lan {
-  margin-left: 5px;
   position: relative;
   top: 1px;
+  left: 6px;
 }
 
 /* .arr_drop_lan svg {

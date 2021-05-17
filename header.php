@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/media.css">
-
     <script src="/assets/libs/jquery/js/jquery.min.js"></script>
 </head>
 
@@ -30,7 +29,6 @@
 								<div class="dropdown_lang_g">
 									<div class="in_dropdown_g">
 										<ul>
-											<li><a href="#">EN</a></li>
 											<li><a href="#">RU</a></li>
 											<li><a href="#">UA</a></li>
 										</ul>

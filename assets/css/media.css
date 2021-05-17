@@ -214,9 +214,6 @@
     padding: 10px 0;
     /* margin-right: 30px; */
   }
-  .item_type_g:first-child {
-    margin-left: 10px;
-  }
   .col_item_sifg {
     width: 100%;
   }
@@ -232,8 +229,12 @@
     width: 100%;
     z-index: 2;
     top: calc(100% + 0px);
-    left: 0px;
+    left: -15px;
     background-color: #f8f8ff;
+  }
+  .dropdown_lang_g li {
+    text-align: center;
+    margin: 15px 0;
   }
   .span_txt_lang:before {
     opacity: 0 !important;
@@ -310,7 +311,7 @@
     left: 0;
     right: 0;
     z-index: 100;
-    background: #ffffff;
+    background: #f8f8ff;
     border-bottom: solid 1px #c3c3c3;
   }
   .in_to_cont_hd {
@@ -386,9 +387,9 @@
   .in_to_lang_g {
     justify-content: center;
     padding: 15px 14px;
-    /* border: solid 1px #c3c3c3; */
+    border: solid 1px #c3c3c3;
     height: 100%;
-    /* left: -15px; */
+    left: -15px;
     border-bottom: 0;
   }
   .menu_header_go {
@@ -679,6 +680,12 @@
     height: 100%;
     max-height: 100%;
   }
+  .select_type_insurance .swiper-container {
+    overflow: visible;
+  }
+  /* .select_type_insurance .swiper-slide:last-child {
+    margin-right: 20 !important;
+  } */
 }
 @media only screen and (max-width: 767px) {
   .fill_frm_go .in_to_desg_g br,
@@ -1709,7 +1716,7 @@
     margin-bottom: 15px;
   }
   .countries_gr {
-    padding-bottom: 15px;
+    padding-bottom: 40px;
   }
   .form_search_go {
     margin-bottom: 0;
@@ -1865,6 +1872,13 @@
   .head_plan_ins_right {
     left: -114px;
   }
+  .select_type_insurance .swiper-slide {
+    width: 165px !important;
+    flex-shrink: 0;
+    display: block;
+    height: 100%;
+    max-height: 100%;
+  }
 }
 
 @media only screen and (max-width: 362px) {
@@ -1897,9 +1911,9 @@
   .item_countr_this {
     margin-bottom: 17px;
   }
-  .dropdown_lang_g li {
+  /* .dropdown_lang_g li {
     margin: 10px 0;
-  }
+  } */
   .language_menu_g {
     top: 15px;
   }
@@ -1918,5 +1932,14 @@
   .infs_hes_g .item_inf_kvad .in_to_item_kvadr,
   .in_to_item_kvadr {
     height: 65vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .in_to_lang_g {
+    left: -26px;
+  }
+  .dropdown_lang_g {
+    left: -26px;
   }
 }

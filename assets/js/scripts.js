@@ -292,6 +292,7 @@ function slidersGo() {
         type: "bullets",
         clickable: true,
       },
+
       autoplay: {
         delay: 3000,
       },
@@ -302,12 +303,22 @@ function slidersGo() {
     const swiper = new Swiper("#slider_insurance", {
       slidesPerView: "auto",
       spaceBetween: 15,
-      loop: true,
+      // loop: true,
       loopFillGroupWithBlank: false,
 
       navigation: {
         nextEl: ".chose_arr_right_insurance",
         prevEl: ".chose_arr_left_insurance",
+      },
+      scrollbar: {
+        container: ".swiper-scrollbar",
+        hide: false,
+        draggable: true,
+        snapOnRelease: true,
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+        draggable: true,
       },
     });
   }
