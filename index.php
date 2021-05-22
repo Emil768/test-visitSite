@@ -213,7 +213,7 @@
 					<div class="row">
 						<div class="item_hld_g left_yel_g">
 							<div class="in_to_yell_g has_line_left small_top_line">
-								<div class="rest_title_sg">Features of <br>our insurance</div>
+								<div class="rest_title_sg">Features of our insurance</div>
 								<div class="ul_descr_g">
 									<div class="item_dso_g">Registration from anywhere in the world</div>
 									<div class="item_dso_g">Convenient online payment</div>
@@ -320,7 +320,7 @@
 							<div class="col_12">
 								<div class="pcr_tss_g">
 									<div class="pcr_tit_g">Pass PCR test:</div>
-									<div class="buttons_bcr_g d_flex">
+									<div class="buttons_bcr_g flex_go_wrap">
 										<div class="item_butt_csa_g">
 											<div class="d_inline_block">
 												<a href="#" class="border_butt_inl_g d_flex align_center justify_center">kyiv</a>
@@ -935,11 +935,21 @@
 											<form>
 												<div class="row">
 													<div class="col_6 col_imputs_g">
+													<div class="inp_group">
+															<input class="input_gorg" type="text" placeholder="First name">
+														</div>
 														<div class="inp_group">
 															<input class="input_gorg" type="text" placeholder="Last name">
 														</div>
 														<div class="inp_group">
-															<input class="input_gorg" type="text" placeholder="First name">
+															<input class="input_gorg" type="email" placeholder="E-mail">
+														</div>
+														<div class="inp_group">
+															<input class="input_gorg" type="tel" placeholder="Phone">
+														</div>
+														<div class="inp_group d_flex_center">
+															<input class="input_gorg birthday_calendar" type="text" placeholder="Date of birthday" readonly="true" >
+															<div class="txt_info_inp">MM / DD / YYYY</div>
 														</div>
 														<div class="inp_group d_flex_center">
 															<input class="input_gorg" type="text" placeholder="Pasport data">
@@ -1204,16 +1214,6 @@
 														</div>
 													</div>
 													<div class="col_6 col_imputs_g">
-														<div class="inp_group">
-															<input class="input_gorg" type="email" placeholder="E-mail">
-														</div>
-														<div class="inp_group">
-															<input class="input_gorg" type="tel" placeholder="Phone">
-														</div>
-														<div class="inp_group d_flex_center">
-															<input class="input_gorg birthday_calendar" type="text" placeholder="Date of birthday" readonly="true" >
-															<div class="txt_info_inp">MM / DD / YYYY</div>
-														</div>
 														<div class="inp_group">
 															<!-- <button type="submit" class="one_more_tourist d_flex_center justify_center">+ Add tourist</button> -->
 															<!-- <button class="one_more_tourist d_flex_center justify_center">+ Add tourist</button> -->

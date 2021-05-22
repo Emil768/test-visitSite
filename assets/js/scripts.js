@@ -255,8 +255,8 @@ function enableScroll() {
 function slidersGo() {
   if ($("#slider_company").length) {
     const swiper = new Swiper("#slider_company", {
-      spaceBetween: 30,
-      slidesPerView: 5,
+      spaceBetween: 15,
+      slidesPerView: 2,
       observer: true,
       observeParents: true,
       observeSlideChildren: true,
@@ -266,7 +266,11 @@ function slidersGo() {
       },
       breakpoints: {
         320: {
-          spaceBetween: 13,
+          spaceBetween: 11,
+          slidesPerView: 2,
+        },
+        375: {
+          spaceBetween: 11,
           slidesPerView: 3,
         },
         640: {

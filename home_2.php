@@ -194,7 +194,7 @@
 						<h2 class="title_head_g">RULES OF ENTRY TO UKRAINE</h2>
 					</center>
 				</div>
-				<div class="block_rules_g no_border_t">
+				<div class="block_rules_g no_border_t has_line_left">
 					<div class="in_to_rules_g">
 						<div class="row flex_go_wrap">
 							<div class="col_6 item_txj_sjg_f stretch_card">
@@ -837,11 +837,21 @@
 											<form>
 												<div class="row">
 													<div class="col_6 col_imputs_g">
+													<div class="inp_group">
+															<input class="input_gorg" type="text" placeholder="First name">
+														</div>
 														<div class="inp_group">
 															<input class="input_gorg" type="text" placeholder="Last name">
 														</div>
 														<div class="inp_group">
-															<input class="input_gorg" type="text" placeholder="First name">
+															<input class="input_gorg" type="email" placeholder="E-mail">
+														</div>
+														<div class="inp_group">
+															<input class="input_gorg" type="tel" placeholder="Phone">
+														</div>
+														<div class="inp_group d_flex_center">
+															<input class="input_gorg birthday_calendar" type="text" placeholder="Date of birthday" readonly="true" >
+															<div class="txt_info_inp">MM / DD / YYYY</div>
 														</div>
 														<div class="inp_group d_flex_center">
 															<input class="input_gorg" type="text" placeholder="Pasport data">
@@ -1106,16 +1116,7 @@
 														</div>
 													</div>
 													<div class="col_6 col_imputs_g">
-														<div class="inp_group">
-															<input class="input_gorg" type="email" placeholder="E-mail">
-														</div>
-														<div class="inp_group">
-															<input class="input_gorg" type="tel" placeholder="Phone">
-														</div>
-														<div class="inp_group d_flex_center">
-															<input class="input_gorg birthday_calendar" type="text" placeholder="Date of birthday" readonly="true" >
-															<div class="txt_info_inp">MM / DD / YYYY</div>
-														</div>
+														
 														<div class="inp_group">
 															<!-- <button type="submit" class="one_more_tourist d_flex_center justify_center">+ Add tourist</button> -->
 															<!-- <button class="one_more_tourist d_flex_center justify_center">+ Add tourist</button> -->

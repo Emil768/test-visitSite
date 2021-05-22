@@ -490,6 +490,7 @@ button {
 .flex_grow_0 {
   flex-grow: 0;
 }
+
 .text_center {
   text-align: center;
 }
@@ -1015,9 +1016,9 @@ button {
   position: relative;
   top: -4px;
 }
-.title_head_g.yell_point:before {
+/* .title_head_g.yell_point:before {
   background: #fff302;
-}
+} */
 .item_search_cat {
   float: left;
   margin-right: 20px;
@@ -1072,6 +1073,9 @@ button {
 }
 .input_search_g:focus {
   border-color: #006eff;
+}
+.input_search_g::placeholder {
+  color: #000;
 }
 .sub_this_btg {
   position: absolute;
@@ -1726,7 +1730,7 @@ button {
   margin-bottom: 58px;
 }
 .in_to_company_slide {
-  border: 1px solid #c3c3c3;
+  border: 1px solid #7c7c7c;
   height: 210px;
   cursor: pointer;
 }
@@ -2280,6 +2284,9 @@ button {
   padding-top: 7px;
   border-bottom: 1px solid #c3c3c3;
   padding-bottom: 120px;
+}
+.block_rules_g.has_line_left:before {
+  top: 40px;
 }
 .in_to_quest_yel {
   background: #fff302;
@@ -3489,6 +3496,9 @@ input {
 }
 .item_butt_csa_g {
   margin-right: 30px;
+}
+.item_butt_csa_g:last-child {
+  margin-right: 0px;
 }
 .vdoma_tit_head {
   font-size: 22px;
