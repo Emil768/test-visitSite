@@ -1142,7 +1142,7 @@
     position: absolute;
     bottom: 0;
     right: -53px;
-    height: 180px;
+    height: 214px;
   }
   .chose_company .in_to_company {
     height: 220px;
@@ -1566,8 +1566,8 @@
     margin-bottom: 19px;
   }
   .icon_air_fly {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     right: 23px;
     bottom: 5px;
   }
@@ -1582,12 +1582,15 @@
     line-height: 1.5;
     margin-bottom: 90px !important;
   }
+  .descr_trv_g_from {
+    margin-bottom: 40px !important;
+  }
   .blue_butt_g.small_butt {
     padding: 18px 9px;
     min-width: 132px;
   }
   .in_to_yel_trav {
-    padding: 25px 20px;
+    padding: 40px 20px;
   }
   .infs_hes_g .in_to_infs_items {
     margin-left: 0;
@@ -1959,6 +1962,7 @@
   .icon_secure_gf {
     height: 100px;
     bottom: 45px;
+    right: 45px;
   }
 
   .head_plan_ins_left {
@@ -2017,6 +2021,9 @@
   .infs_hes_g .item_inf_kvad .in_to_item_kvadr,
   .in_to_item_kvadr {
     height: 65vw;
+  }
+  .icon_air_fly {
+    display: none;
   }
 }
 
@@ -2092,6 +2099,9 @@
   }
   .descr_trv_g {
     margin-bottom: 50px !important;
+  }
+  .in_to_yel_trav .ul_descr_g {
+    margin-bottom: 40px;
   }
 }
 

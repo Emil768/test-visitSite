@@ -656,7 +656,7 @@
 					<div class="in_to_yel_trav has_line_left">
 						<div class="icon_air_fly"></div>
 						<div class="title_trv_g">Information for those who <br>travels abroad</div>
-						<div class="descr_trv_g">What to do if… I’ve already planned a <br>trip and even paid for it?</div>
+						<div class="descr_trv_g descr_trv_g_from">What to do if… I’ve already planned a <br>trip and even paid for it?</div>
 						<div class="butto_sue_gi">
 							<div class="d_inline_block">
 								<a
