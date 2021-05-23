@@ -761,6 +761,7 @@
 														</div>
 													</div>
 												</div>
+												<div class="swiper-scrollbar"></div>
 											</div>
 										</div>
 									</div>
@@ -907,6 +908,7 @@
 														</div>
 													</div>
 												</div>
+												<div class="swiper-scrollbar"></div>
 											</div>
 										</div>
 									</div>
@@ -935,7 +937,7 @@
 											<form>
 												<div class="row">
 													<div class="col_6 col_imputs_g">
-													<div class="inp_group">
+														<div class="inp_group">
 															<input class="input_gorg" type="text" placeholder="First name">
 														</div>
 														<div class="inp_group">

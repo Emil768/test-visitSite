@@ -260,6 +260,7 @@ function slidersGo() {
       observer: true,
       observeParents: true,
       observeSlideChildren: true,
+      autoHeight: true,
       navigation: {
         nextEl: ".chose_arr_right",
         prevEl: ".chose_arr_left",
@@ -268,6 +269,10 @@ function slidersGo() {
         320: {
           spaceBetween: 11,
           slidesPerView: 2,
+        },
+        340: {
+          spaceBetween: 11,
+          slidesPerView: 3,
         },
         375: {
           spaceBetween: 11,
@@ -282,6 +287,10 @@ function slidersGo() {
           spaceBetween: 30,
           slidesPerView: 5,
         },
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+        draggable: true,
       },
     });
   }
@@ -305,21 +314,36 @@ function slidersGo() {
 
   if ($("#slider_insurance").length) {
     const swiper = new Swiper("#slider_insurance", {
-      slidesPerView: "auto",
+      slidesPerView: 1,
       spaceBetween: 15,
-      // loop: true,
-      loopFillGroupWithBlank: false,
 
       navigation: {
         nextEl: ".chose_arr_right_insurance",
         prevEl: ".chose_arr_left_insurance",
       },
-      scrollbar: {
-        container: ".swiper-scrollbar",
-        hide: false,
-        draggable: true,
-        snapOnRelease: true,
+      breakpoints: {
+        366: {
+          spaceBetween: 11,
+          slidesPerView: 1,
+        },
+        375: {
+          spaceBetween: 15,
+          slidesPerView: 2,
+        },
+        550: {
+          spaceBetween: 15,
+          slidesPerView: 2,
+        },
+        640: {
+          spaceBetween: 15,
+          slidesPerView: 3,
+        },
+        991: {
+          spaceBetween: 15,
+          slidesPerView: 3,
+        },
       },
+
       scrollbar: {
         el: ".swiper-scrollbar",
         draggable: true,

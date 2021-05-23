@@ -17,19 +17,13 @@
     font-size: 22px;
     line-height: 26px;
   }
-  .infs_hes_g .item_inf_kvad .in_to_item_kvadr {
-    height: 228px;
-    padding: 19px 16px;
-  }
+
   .title_yel_g {
     font-size: 30px;
     line-height: 40px;
     min-height: 140px;
   }
-  .in_to_yell_g {
-    height: 456px;
-    padding: 29px 30px;
-  }
+
   .butt_yell_g {
     bottom: 30px;
   }
@@ -42,10 +36,10 @@
   .in_to_yel_trav {
     padding-right: 360px;
   }
-  .in_to_company,
+  /* .in_to_company,
   .in_to_company_slide {
     height: 303px;
-  }
+  } */
   .title_shf_g {
     font-size: 14px;
     line-height: 21px;
@@ -149,10 +143,18 @@
     float: right;
     margin-right: 15px;
   }
-  .in_to_company,
+  /* .in_to_company,
   .in_to_company_slide {
-    height: 140px;
+    height: 200px;
+  } */
+  .select_type_insurance .in_to_company {
+    height: 110px;
   }
+
+  /* .select_type_insurance .in_to_company,
+  .in_to_company_slide {
+    height: 100px;
+  } */
 
   .yel_kvdr {
     height: auto;
@@ -663,23 +665,14 @@
   .block_items_inf {
     padding-bottom: 60px;
   }
-  .select_type.swiper-slide {
+  /* .select_type.swiper-slide {
     width: auto !important;
     flex-shrink: 0;
     display: block;
     height: 100%;
     max-height: 100%;
-  }
-  .select_type_insurance .swiper-slide {
-    width: 176px !important;
-    flex-shrink: 0;
-    display: block;
-    height: 100%;
-    max-height: 100%;
-  }
-  .select_type_insurance .swiper-container {
-    overflow: visible;
-  }
+  } */
+
   .search_cats {
     margin-bottom: 30px;
   }
@@ -693,9 +686,24 @@
   .menu_header_go li a {
     font-size: 16px;
   }
-  /* .select_type_insurance .swiper-slide:last-child {
-    margin-right: 20 !important;
-  } */
+  .swiper-scrollbar {
+    display: block;
+  }
+  .foot_cont_frm {
+    margin-top: 30px;
+  }
+  .info_blk_g_from {
+    padding-top: 0;
+  }
+  .plans_go {
+    margin-bottom: 70px;
+  }
+  .chose_company .in_to_company {
+    height: 260px;
+  }
+  .select_type_insurance .swiper-container .swiper-slide:first-child {
+    padding-left: 10px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .fill_frm_go .in_to_desg_g br,
@@ -733,10 +741,7 @@
   .actions_go {
     margin-bottom: 30px;
   }
-  .in_to_company,
-  .in_to_company_slide {
-    height: 30.7vw;
-  }
+
   .in_foot_insur {
     height: auto;
     padding-bottom: 60px;
@@ -1001,12 +1006,13 @@
   .info_blk_g {
     padding-top: 90px;
   }
+  .info_blk_g_from {
+    padding-top: 0px !important;
+  }
   .head_title_g.big_mg_bottom {
     margin-bottom: 65px;
   }
-  /* .plans_go {
-    margin-top: 0;
-  } */
+
   .select_plan {
     top: -118px;
     width: 180px;
@@ -1138,10 +1144,13 @@
     right: -53px;
     height: 180px;
   }
-  /* .in_to_company,
+  .chose_company .in_to_company {
+    height: 220px;
+  }
+  .in_to_company,
   .in_to_company_slide {
-    height: 23.7vw;
-  } */
+    height: 170px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -1422,9 +1431,7 @@
   .steps_frm {
     max-width: 100%;
   }
-  .plans_go {
-    margin-bottom: 70px;
-  }
+
   .top_date_selg {
     top: 15px;
     left: 19px;
@@ -1565,7 +1572,7 @@
     bottom: 5px;
   }
   .yell_blk_this {
-    margin-bottom: 39px;
+    margin-bottom: 30px;
   }
   .descr_trv_g br {
     display: none;
@@ -1659,9 +1666,7 @@
     padding-top: 56px;
     margin-bottom: 45px;
   }
-  .info_blk_g_from {
-    padding-top: 0;
-  }
+
   .head_title_g.big_mg_bottom {
     margin-bottom: 57px;
   }
@@ -1915,13 +1920,22 @@
   .title_shf_g {
     font-size: 14px;
   }
-  .in_to_company,
-  .in_to_company_slide {
+  .chose_company .in_to_company {
+    height: 150px;
+  }
+  .chose_company .in_to_company .in_to_company_slide {
     height: 107px;
   }
-  /* .slider_company .swiper-slide {
-    width: 107px !important;
-  } */
+  .block_items_inf {
+    padding-bottom: 40px;
+    margin-bottom: 0;
+  }
+  .swiper-container {
+    overflow: visible;
+  }
+  .select_type_insurance .swiper-container .swiper-slide:first-child {
+    padding-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 426px) {
@@ -1934,6 +1948,10 @@
 
   .item_butt_csa_g {
     margin-right: 16px;
+  }
+  .infs_hes_g .item_inf_kvad .in_to_item_kvadr,
+  .in_to_item_kvadr {
+    height: 50vw;
   }
 }
 
@@ -1949,15 +1967,13 @@
   .head_plan_ins_right {
     left: -114px;
   }
-  .select_type_insurance .swiper-slide {
-    width: 165px !important;
-    flex-shrink: 0;
-    display: block;
-    height: 100%;
-    max-height: 100%;
-  }
+
   .border_butt_inl_g {
     min-width: 120px;
+  }
+  .infs_hes_g .item_inf_kvad .in_to_item_kvadr,
+  .in_to_item_kvadr {
+    height: 55vw;
   }
 }
 
@@ -1997,6 +2013,13 @@
   }
 }
 
+@media only screen and (max-width: 340px) {
+  .infs_hes_g .item_inf_kvad .in_to_item_kvadr,
+  .in_to_item_kvadr {
+    height: 65vw;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .socs_mob_go .item_soc_subr a {
     font-size: 11px;
@@ -2028,7 +2051,7 @@
   }
 
   .border_butt_inl_g {
-    min-width: 160px;
+    min-width: 120px;
   }
   .buttons_bcr_g.flex_go_wrap {
     justify-content: center;
@@ -2056,6 +2079,19 @@
   }
   .block_items_inf .item_inf_kvad .in_to_item_kvadr {
     height: 130px;
+  }
+  .in_to_yel_trav.securisys_g {
+    padding-right: 0;
+    padding: 30px 20px 35px;
+  }
+  .descr_have_quest {
+    margin-bottom: 50px;
+  }
+  .in_to_yel_trav {
+    padding: 39px 20px 40px;
+  }
+  .descr_trv_g {
+    margin-bottom: 50px !important;
   }
 }
 
