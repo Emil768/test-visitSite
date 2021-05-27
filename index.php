@@ -458,7 +458,7 @@
 					</center>
 				</div>
 				<div class="plans_go">
-					<!-- <div class="in_to_plans_g plan_2" data-plans>
+					<div class="in_to_plans_g plan_2" data-plans>
 						<div class="plans_this_col">
 							<div class="in_to_columns_plan row">
 								<div class="item_plan_g col_6 insurance_plan_mobil_wrap">
@@ -645,10 +645,13 @@
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
+				</div>
 					
 					<!-- plans_go_mobile -->
-					<div class="in_to_plans_g  plan_2_mobile" data-plans>
+					
+					<div class="plans_go_mobile">
+					<div class="in_to_plans_g plan_2_mobile" data-plans>
 						<div class="head_plan_ins head_plan_ins_left">
 							<div class="price_item_plan ">
 								<label>
@@ -831,9 +834,10 @@
 													</div>
 												</div>
 											</div>
-							</div>						
-						</div>					
-					</div>
+								</div>						
+							</div>					
+						</div>
+					
 				
 		</div>
 

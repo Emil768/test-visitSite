@@ -1462,6 +1462,9 @@ button {
   margin-top: 54px;
   margin-bottom: 120px;
 }
+.plans_go_mobile {
+  display: none;
+}
 .price_item_plan {
   text-align: center;
 }
@@ -1561,6 +1564,7 @@ button {
   border-color: #3163f6;
   background: #f2f6ff;
 }
+
 .plan_2_mobile {
   display: flex;
   justify-content: space-around;

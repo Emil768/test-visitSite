@@ -678,7 +678,12 @@
   }
   .plans_go {
     margin-bottom: 0;
+    display: none;
   }
+  .plans_go_mobile {
+    display: block;
+  }
+
   .chose_company .in_to_company {
     height: 260px;
   }
