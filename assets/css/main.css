@@ -1623,7 +1623,8 @@ button {
   font-weight: 500;
 }
 .in_to_item_pln_g:hover {
-  background: rgba(0, 110, 255, 0.02);
+  border-color: #3163f6;
+  /* background: rgba(0, 110, 255, 0.02); */
 }
 .price_pln_itm {
   font-size: 16px;

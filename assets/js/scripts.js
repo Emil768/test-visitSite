@@ -389,6 +389,7 @@ function slidersGo() {
   const swiper_plans = new Swiper("#slider_plans_go", {
     slidesPerView: 1,
     spaceBetween: 15,
+
     breakpoints: {
       550: {
         spaceBetween: 15,

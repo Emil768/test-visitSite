@@ -677,11 +677,7 @@
     padding-top: 0;
   }
   .plans_go {
-    margin-bottom: 0;
-    display: none;
-  }
-  .plans_go_mobile {
-    display: block;
+    margin-bottom: 60px;
   }
 
   .chose_company .in_to_company {
@@ -864,6 +860,17 @@
   /* .plans_go .swiper-slide {
     width: 400px !important;
   } */
+  .plans_go {
+    display: none;
+  }
+  .plans_go_mobile {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .plans_go_mobile .swiper-container,
+  .swiper-wrapper {
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 639px) {
@@ -1049,7 +1056,7 @@
   }
   .in_to_item_plan {
     padding: 27px 10px;
-    height: 587px;
+    height: 600px;
   }
   .descr_plan_this {
     font-size: 12px;
