@@ -193,6 +193,42 @@ function otherCode() {
     }
   });
 
+  //plans_mobile
+
+  $(".head_plan_ins").each((index, item) => {
+    $(item).on("click", function () {
+      if ($(this).hasClass("head_plan_ins_left")) {
+        $(this).addClass("active");
+        $(".in_to_item_plan_left").addClass("active");
+        $(".head_plan_ins_right").removeClass("active");
+        $(".in_to_item_plan_right").removeClass("active");
+      } else if ($(this).hasClass("head_plan_ins_right")) {
+        $(this).addClass("active");
+        $(".in_to_item_plan_right").addClass("active");
+        $(".head_plan_ins_left").removeClass("active");
+        $(".in_to_item_plan_left").removeClass("active");
+      }
+    });
+  });
+
+  $(".in_to_item_plan").each((index, item) => {
+    $(item).on("click", function () {
+      if ($(this).hasClass("in_to_item_plan_left")) {
+        $(this).addClass("active");
+        $(".head_plan_ins_left").addClass("active");
+        $(".head_plan_ins_right").removeClass("active");
+        $(".in_to_item_plan_right").removeClass("active");
+      } else if ($(this).hasClass("in_to_item_plan_right")) {
+        $(this).addClass("active");
+        $(".head_plan_ins_right").addClass("active");
+        $(".head_plan_ins_left").removeClass("active");
+        $(".in_to_item_plan_left").removeClass("active");
+      }
+    });
+  });
+
+  //end
+
   $("[data-show-insurance]").on("click", function (e) {
     e.preventDefault();
     $(this).toggleClass("active");
@@ -350,6 +386,28 @@ function slidersGo() {
       },
     });
   }
+  const swiper_plans = new Swiper("#slider_plans_go", {
+    slidesPerView: 1,
+    spaceBetween: 15,
+    breakpoints: {
+      550: {
+        spaceBetween: 15,
+        slidesPerView: 1,
+      },
+      640: {
+        spaceBetween: 15,
+        slidesPerView: 2,
+      },
+      991: {
+        spaceBetween: 15,
+        slidesPerView: 2,
+      },
+    },
+    navigation: {
+      nextEl: ".head_plan_ins_right",
+      prevEl: ".head_plan_ins_left",
+    },
+  });
 }
 
 function videoIframeYoutubePlay() {

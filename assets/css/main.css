@@ -1447,6 +1447,17 @@ button {
   width: 16px;
   height: 16px;
 }
+.head_plan_ins_left.active .icon_left_plan:before,
+.head_plan_ins_right.active .icon_right_plan:before {
+  transform: scale(1.6);
+  background: #1965ff;
+}
+.head_plan_ins_left.active .icon_left_plan:after,
+.head_plan_ins_right.active .icon_right_plan:after {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
 .plans_go {
   margin-top: 54px;
   margin-bottom: 120px;
@@ -1474,6 +1485,7 @@ button {
   font-weight: 700;
   margin-bottom: 15px;
 }
+
 .icon_right_plan:after,
 .icon_left_plan:after {
   content: "";
@@ -1502,12 +1514,16 @@ button {
 .price_item_plan label input:checked + .icon_right_plan:before,
 .price_item_plan label input:checked + .icon_left_plan:before,
 .plan_1 .icon_left_plan:before,
-.plan_2 .icon_right_plan:before {
+.plan_2 .icon_right_plan:before,
+.head_plan_ins_left.active .icon_left_plan:before,
+.head_plan_ins_right.active .icon_right_plan:before {
   transform: scale(1.6);
   background: #1965ff;
 }
 .plan_2 .plan_price_2 .price_plan_go,
-.plan_1 .plan_price_1 .price_plan_go {
+.plan_1 .plan_price_1 .price_plan_go,
+.head_plan_ins_left.active .price_plan_go,
+.head_plan_ins_right.active .price_plan_go {
   color: #1965ff;
 }
 .in_to_item_plan {
@@ -1531,16 +1547,26 @@ button {
   transform: scale(1.01);
 }
 .plan_1 .item_plan_g:nth-child(1) .in_to_item_plan:before,
-.plan_2 .item_plan_g:nth-child(2) .in_to_item_plan:before {
+.in_to_item_plan_left.active:before,
+.plan_2 .item_plan_g:nth-child(2) .in_to_item_plan:before,
+.in_to_item_plan_right.active:before {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
 }
 .plan_1 .item_plan_g:nth-child(1) .in_to_item_plan,
-.plan_2 .item_plan_g:nth-child(2) .in_to_item_plan {
+.in_to_item_plan_left.active,
+.plan_2 .item_plan_g:nth-child(2) .in_to_item_plan,
+.in_to_item_plan_right.active {
   border-color: #3163f6;
   background: #f2f6ff;
 }
+.plan_2_mobile {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
 .title_plan_g {
   font-size: 36px;
   font-weight: 700;

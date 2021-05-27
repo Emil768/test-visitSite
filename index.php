@@ -458,7 +458,7 @@
 					</center>
 				</div>
 				<div class="plans_go">
-					<div class="in_to_plans_g plan_2" data-plans>
+					<!-- <div class="in_to_plans_g plan_2" data-plans>
 						<div class="plans_this_col">
 							<div class="in_to_columns_plan row">
 								<div class="item_plan_g col_6 insurance_plan_mobil_wrap">
@@ -645,9 +645,196 @@
 								</div>
 							</div>
 						</div>
+					</div> -->
+					
+					<!-- plans_go_mobile -->
+					<div class="in_to_plans_g  plan_2_mobile" data-plans>
+						<div class="head_plan_ins head_plan_ins_left">
+							<div class="price_item_plan ">
+								<label>
+									<div class="in_to_price_item_plan">
+										<div class="subtitl_price">Insurance covers</div>
+										<div class="price_plan_go">&#8364;30 000</div>
+									</div>
+									<div class="icon_left_plan"></div>
+								</label>
+							</div>
+						</div>
+						<div class="head_plan_ins head_plan_ins_right">
+							<div class="price_item_plan">
+								<label>
+									<div class="in_to_price_item_plan">
+										<div class="subtitl_price">Insurance covers</div>
+										<div class="price_plan_go">&#36;50 000</div>
+									</div>
+									<div class="icon_right_plan"></div>
+								</label>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
+
+					<!-- slider -->
+					<div class="swiper-container slider_company" id="slider_plans_go">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide item_slide_comp">
+								<div class="in_to_item_plan  in_to_item_plan_left">
+									<div class="title_plan_g">Basic</div>
+									<div class="descr_plan_this">The insurance covers the whole world except: <br>USA, Canada, Japan, Australia, New Zealand</div>
+									<div class="plan_price_g">
+										<div class="subtitle_plan_g">Get insurance from</div>
+										<div class="plan_price_per d_flex_center justify_center">&#8364;0.80 <span>/ day</span></div>
+									</div>
+										<div class="items_plan">
+											<div class="item_this_plan">
+												<div class="in_to_item_pln_g d_flex_center justify_between">
+													<div class="peo_p_oth d_flex_center">
+														<div>Children</div>
+														<div class="info_this_drop has_info_toltip">
+															<div class="toltip_this_g">
+																<div class="in_tolt_g d_flex_center justify_center">
+																	<span>Age: <strong>0-3 </strong> years old</span>
+																</div>
+															</div>
+															<span class="icon_info">
+																<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+																	<path d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Zm.7,10.5H6.3V6.3H7.7Zm0-5.6H6.3V3.5H7.7Z" fill="#b2b2b2"/>
+																</svg>
+															</span>
+														</div>
+													</div>
+													<div class="price_pln_itm">&#8364;1.64/day</div>
+												</div>
+											</div>
+											<div class="item_this_plan">
+												<div class="in_to_item_pln_g d_flex_center justify_between">
+													<div class="peo_p_oth d_flex_center">
+														<div>Adults people</div>
+														<div class="info_this_drop has_info_toltip">
+															<div class="toltip_this_g">
+																<div class="in_tolt_g d_flex_center justify_center">
+																	<span>Age: <strong>3-60 </strong> years old</span>
+																</div>
+															</div>
+															<span class="icon_info">
+																<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+																	<path d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Zm.7,10.5H6.3V6.3H7.7Zm0-5.6H6.3V3.5H7.7Z" fill="#b2b2b2"/>
+																</svg>
+															</span>
+														</div>
+													</div>
+													<div class="price_pln_itm">&#8364;0.80/day</div>
+												</div>
+											</div>
+											<div class="item_this_plan">
+												<div class="in_to_item_pln_g d_flex_center justify_between">
+													<div class="peo_p_oth d_flex_center">
+														<div>Elderly people</div>
+														<div class="info_this_drop has_info_toltip">
+															<div class="toltip_this_g">
+																<div class="in_tolt_g d_flex_center justify_center">
+																	<span>Age: <strong>60+ </strong> years old</span>
+																</div>
+															</div>
+															<span class="icon_info">
+																<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+																	<path d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Zm.7,10.5H6.3V6.3H7.7Zm0-5.6H6.3V3.5H7.7Z" fill="#b2b2b2"/>
+																</svg>
+															</span>
+														</div>
+													</div>
+													<div class="price_pln_itm">&#8364;3.28/day</div>
+													</div>
+												</div>
+											</div>
+											<div class="foot_plan_g">
+												<div class="descr_plan_foot">The insurance also covers cases if in the blood <br>presence alcohol.</div>
+												<div class="butt_sel_plan">
+													<a href="#" class="go_to_form_insuran blue_butt_g">get an Insurance policy</a>
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide item_slide_comp">
+							<div class="in_to_item_plan in_to_item_plan_right">
+												<div class="title_plan_g">Worldwide</div>
+												<div class="descr_plan_this">The insurance covers the whole world except: <br>Ukraine</div>
+												<div class="plan_price_g">
+													<div class="subtitle_plan_g">Get insurance from</div>
+													<div class="plan_price_per d_flex_center justify_center">&#8364;3.12 <span>/ day</span></div>
+												</div>
+												<div class="items_plan">
+													<div class="item_this_plan">
+														<div class="in_to_item_pln_g d_flex_center justify_between">
+															<div class="peo_p_oth d_flex_center">
+																<div>Children</div>
+																<div class="info_this_drop has_info_toltip">
+																	<div class="toltip_this_g">
+																		<div class="in_tolt_g d_flex_center justify_center">
+																			<span>Age: <strong>0-3 </strong> years old</span>
+																		</div>
+																	</div>
+																	<span class="icon_info">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+																			<path d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Zm.7,10.5H6.3V6.3H7.7Zm0-5.6H6.3V3.5H7.7Z" fill="#b2b2b2"/>
+																		</svg>
+																	</span>
+																</div>
+															</div>
+															<div class="price_pln_itm">&#8364;4.68/day</div>
+														</div>
+													</div>
+													<div class="item_this_plan">
+														<div class="in_to_item_pln_g d_flex_center justify_between">
+															<div class="peo_p_oth d_flex_center">
+																<div>Adults people</div>
+																<div class="info_this_drop has_info_toltip">
+																	<div class="toltip_this_g">
+																		<div class="in_tolt_g d_flex_center justify_center">
+																			<span>Age: <strong>3-60 </strong> years old</span>
+																		</div>
+																	</div>
+																	<span class="icon_info">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+																			<path d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Zm.7,10.5H6.3V6.3H7.7Zm0-5.6H6.3V3.5H7.7Z" fill="#b2b2b2"/>
+																		</svg>
+																	</span>
+																</div>
+															</div>
+															<div class="price_pln_itm">&#8364;3.12/day</div>
+														</div>
+													</div>
+													<div class="item_this_plan">
+														<div class="in_to_item_pln_g d_flex_center justify_between">
+															<div class="peo_p_oth d_flex_center">
+																<div>Elderly people</div>
+																<div class="info_this_drop has_info_toltip">
+																	<div class="toltip_this_g">
+																		<div class="in_tolt_g d_flex_center justify_center">
+																			<span>Age: <strong>60+ </strong> years old</span>
+																		</div>
+																	</div>
+																	<span class="icon_info">
+																		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+																			<path d="M7,0a7,7,0,1,0,7,7A7,7,0,0,0,7,0Zm.7,10.5H6.3V6.3H7.7Zm0-5.6H6.3V3.5H7.7Z" fill="#b2b2b2"/>
+																		</svg>
+																	</span>
+																</div>
+															</div>
+															<div class="price_pln_itm">&#8364;9.36/day</div>
+														</div>
+													</div>
+												</div>
+												<div class="foot_plan_g">
+													<div class="descr_plan_foot">The insurance also covers cases if in the blood <br>presence alcohol.</div>
+													<div class="butt_sel_plan">
+														<a href="#" class="go_to_form_insuran blue_butt_g">get an Insurance policy</a>
+													</div>
+												</div>
+											</div>
+							</div>						
+						</div>					
+					</div>
+				
 		</div>
 
 		<div class="yell_blk_air">
