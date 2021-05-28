@@ -635,7 +635,7 @@
     display: flex;
   }
   .block_search_go {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
   .rules_blk {
     margin-top: 60px;
@@ -849,6 +849,9 @@
   }
   .item_log_foot_wrap {
     margin-top: 0;
+  }
+  .block_search_go {
+    border-bottom: 0;
   }
 }
 
